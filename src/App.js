@@ -61,20 +61,20 @@ function App() {
   return (
     <>
       <div className="container">
-        <h1>WEATHER APPLICATION</h1>
         <div className="search-sec">
+        <h1>WEATHER APPLICATION</h1>
           <input
             type="text"
             value={search}
-            placeholder="Search by City..."
+            placeholder="Search by city..."
             onChange={handleSearch}
           />
-        </div>
         <div>
-          <p>or</p>
+          or
         </div>
         <div>
           <button onClick={geoHandler}>Find me!</button>
+        </div>
         </div>
         <br />
         <br />
